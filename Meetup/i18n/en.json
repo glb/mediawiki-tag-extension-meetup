@@ -1,0 +1,21 @@
+{
+  "@metadata": {
+    "authors": []
+  },
+  "meetup-all-past-events": "See all past events on meetup.com",
+  "meetup-all-upcoming-events": "See all upcoming events on meetup.com",
+  "meetup-api-base-url": "https://api.meetup.com",
+  "meetup-desc": "Adds <code>&lt;meetup&gt;</code> tag for including Meetup information in pages",
+  "meetup-event-link-text": "See event on meetup.com",
+  "meetup-event-status": "{$1} / {$2} attending, {$3} {$4} on the waitlist.",
+  "meetup-events-ui-url": "https://www.meetup.com/$1/events/$2",
+  "meetup-group-link-text": "Visit our group on meetup.com",
+  "meetup-group-ui-url": "https://www.meetup.com/$1",
+  "meetup-header": "Chapter Meetings",
+  "meetup-missing-group-info": "The meetup group information is missing. Set the group attribute in the meetup tag.",
+  "meetup-no-events-scheduled": "No events are scheduled at the moment.",
+  "meetup-no-past-events": "No past events are available at the moment.",
+  "meetup-past-events-header": "Past events",
+  "meetup-read-more": "(read more)",
+  "meetup-upcoming-events-header": "Upcoming events"
+}
