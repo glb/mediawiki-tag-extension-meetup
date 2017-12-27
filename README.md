@@ -1,4 +1,4 @@
-# Meetup tag exension for mediawiki
+# Meetup tag extension for mediawiki
 
 This [mediawiki extension](https://www.mediawiki.org/wiki/Manual:Extensions) adds a custom `<meetup group="..." />` tag that you can include in your wiki page to incorporate
 information about upcoming and past events for the group on meetup.com.
