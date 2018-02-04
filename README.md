@@ -75,13 +75,15 @@ See the [official mediawiki instructions for installing extensions](https://www.
 
 ## Using the extension
 
-Once the extension has been installed, wiki editors can insert the `meetup` custom tag:
+Once the extension has been installed, wiki editors can insert the `meetup` custom tag in their pages like this:
 
 ```text
 <meetup group="{groupID}" />
 ```
 
-Replace `{groupID}` with the group ID of a Meetup group.
+Replace `{groupID}` with the group ID of your Meetup group, which you can get from the URL of your Meetup group. For example, if your Meetup group's page is at `https://www.meetup.com/OWASP-Ottawa` then your group ID is `OWASP-Ottawa`.
+
+**Make sure to use `Edit source` rather than `Edit`, otherwise your page will show the tag instead of your Meetup content!**
 
 ## Contributing
 
