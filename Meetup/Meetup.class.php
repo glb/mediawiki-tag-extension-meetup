@@ -120,8 +120,7 @@ class Meetup
 		$group = urlencode($group);
 
 		$ret .= Html::rawElement( 'a', array(
-				'target' => '_blank',
-				'rel' => 'nofollow',
+				'rel' => 'nofollow noopener noreferrer',
 				'class' => 'external text meetup-badge',
 				'href' => wfMessage( 'meetup-group-ui-url', $group )->plain(),
 			), wfMessage( 'meetup-group-link-text')->parse() );
@@ -211,8 +210,7 @@ class Meetup
 				$description = preg_replace(
 					'/(.{400})(.+)/',
 					'\1 ' . Html::rawElement( 'a', array(
-						'target' => '_blank',
-						'rel' => 'nofollow',
+						'rel' => 'nofollow noopener noreferrer',
 						'class' => 'external text',
 						'href' => $event['link'],
 					), wfMessage( 'meetup-read-more' )->parse() ),
@@ -222,8 +220,7 @@ class Meetup
 				$ret .= Html::rawElement( 'li', array(
 						'class' => 'event',
 					), Html::rawElement( 'a', array(
-						'target' => '_blank',
-						'rel' => 'nofollow',
+						'rel' => 'nofollow noopener noreferrer',
 						'class' => 'external text',
 						'href' => $event['link']
 					), sprintf( '%s (%s): %s',
@@ -245,8 +242,7 @@ class Meetup
 			$ret .= '</ul>';
 
 			$ret .= Html::rawElement( 'a', array(
-					'target' => '_blank',
-					'rel' => 'nofollow',
+					'rel' => 'nofollow noopener noreferrer',
 					'class' => 'external text',
 					'href' => wfMessage(
 						'meetup-events-ui-url', $group, $status
